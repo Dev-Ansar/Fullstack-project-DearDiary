@@ -1,0 +1,138 @@
+.diary-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Dark background */
+  }
+  
+  .diary-form-card {
+    position: relative;
+    background-image: url('../assets/images/diary_page.jpg'); /* Diary page background */
+    background-size: auto 100%; /* Natural width, full height */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%; /* Adjust this based on the actual image size */
+    height: 90vh; /* Full screen height */
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: center; /* Center the form elements */
+    width: 100%; /* Take full width of the card */
+    max-width: 500px; /* Set a max width for the form content */
+  }
+
+  .date-input {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: black; /* Ink-like color */
+    font-size: 18px;
+    outline: none;
+  }
+
+  /* Additional styles for date input to affect the icon */
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    background-color: black; /* Change icon background */
+    color: black; /* Change icon color (may not work in all browsers) */
+}
+  
+  .title-input {
+    margin: 0 auto;
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: darkred; /* Ink-like color */
+    font-size: 35px;
+    text-align: center;
+    outline: none;
+    margin-top: 5px; /* Added space between date and title */
+    width: 80%; /* Adjust as needed */
+  }
+  
+  .mood-select {
+    margin: 20px 40px auto; /* Added space between title and mood */
+    background-color: transparent;
+    border: none;
+    color: darkred; /* Ink-like color */
+    font-size: 18px;
+    width: 80%; /* Match the title width */
+    text-align-last: center; /* Center dropdown text */
+  }
+  
+  .content-textarea {
+    margin: 40px 40px auto;
+    background-color: transparent;
+    border: none;
+    color: darkred; /* Ink-like color */
+    font-size: 18px;
+    width: 85%; /* Fixed width */
+    height: 150px; /* Initial height */
+    resize: vertical; /* Only allow vertical resizing */
+    outline: none;
+  }
+  
+  .tags-input {
+    margin: 20px 30px auto;
+    background-color: transparent;
+    border: none;
+    color: darkred; /* Ink-like color */
+    font-size: 18px;
+    width: 80%; /* Match other input widths */
+    outline: none;
+  }
+  
+  .submit-button {
+    background-color: darkred;
+    color: white;
+    padding: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin for spacing */
+    margin-left: 170px;
+  }
+  
+  .submit-button:hover {
+    background-color: #8b0000; /* Darker red on hover */
+  }
+  
+  body, input, select, textarea {
+    font-family: 'Dancing Script', cursive;
+    color: darkred; /* Keep the ink-like color */
+  }
+  
+  .title-input, .mood-select, .content-textarea, .tags-input {
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px; /* Adjust font size to suit the font */
+  }
+  
+  .date-input {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+  }
+  
+  .submit-button {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #8b0000;
+  }
+  

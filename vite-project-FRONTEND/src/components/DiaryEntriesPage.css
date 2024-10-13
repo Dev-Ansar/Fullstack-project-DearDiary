@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden; /* Prevent the main page from scrolling */
+}
+
+.diary-entries-page {
+  padding: 20px 20px 20px;
+  background-color: transparent; /* Transparent to show the background image */
+  color: #b71c1c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.entries-container {
+  width: 100%;
+  max-width: 1300px; /* Maximum width for the container */
+  height: calc(80vh - 60px); /* Adjust height to leave 30px padding on top and bottom */
+  overflow-y: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  scrollbar-width: none; /* Hide scrollbar on Firefox */
+}
+
+.entries-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar on Chrome, Safari, and Edge */
+}
+
+.entry-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.diary-entry-card {
+  width: 300px;
+  background-color: #fbe9e7;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: #b71c1c;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.diary-entry-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.diary-entry-card h2 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #b71c1c;
+}
+
+.diary-entry-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #b71c1c;
+}
+
+.diary-entry-card .buttons {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  
+}
+
+.button-edit, .button-delete {
+  padding: 8px 12px;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button-edit:hover, .button-delete:hover {
+  background-color: #b71c1c; /* Darker red on hover */
+}
