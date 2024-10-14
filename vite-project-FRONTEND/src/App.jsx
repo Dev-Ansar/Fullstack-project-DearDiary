@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import DiaryEntryForm from './components/DiaryEntryForm';
 import DiaryEntriesPage from './components/DiaryEntriesPage';
-import './App.css'; // Create this file for styling
+import './App.css'; 
 
 
 import logo from './assets/images/diary.png';

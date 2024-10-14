@@ -19,7 +19,7 @@ body {
 .entries-container {
   width: 100%;
   max-width: 1300px; /* Maximum width for the container */
-  height: calc(80vh - 60px); /* Adjust height to leave 30px padding on top and bottom */
+  height: calc(80vh - 60px); /* Adjust height to leave padding on top and bottom */
   overflow-y: auto;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */

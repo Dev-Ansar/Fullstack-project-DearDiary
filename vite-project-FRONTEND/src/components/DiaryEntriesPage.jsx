@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { getEntries } from '../services/api';
 import DiaryEntryCard from '../components/DiaryEntryCard';
-import DiaryEntryForm from '../components/DiaryEntryForm'; // Import your form
+import DiaryEntryForm from '../components/DiaryEntryForm';
 import './DiaryEntriesPage.css'; 
 
 const DiaryEntriesPage = () => {

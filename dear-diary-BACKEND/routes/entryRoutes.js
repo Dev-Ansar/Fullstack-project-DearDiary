@@ -4,12 +4,11 @@ const Entry = require('../models/Entry');
 
 
 
-// Sample route for handling diary entry creation
+// route for handling diary entry creation
 router.post('/', async (req, res) => {
     try {
       const { title, date, mood, content, tags } = req.body;
   
-      // Perform the entry creation logic (e.g., saving to the database)
       const newEntry = new Entry({
         title,
         date,

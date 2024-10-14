@@ -1,7 +1,7 @@
 // src/services/api.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/entries';  // Replace with your backend URL
+const API_URL = 'http://localhost:5000/api/entries';  
 
 export const getEntries = async () => {
   return await axios.get(API_URL);
@@ -13,7 +13,6 @@ export const createEntry = async (entryData) => {
   };
 
 
-// src/services/api.js
 export const updateEntry = async (id, updatedData) => {
     const response = await fetch(`http://localhost:5000/api/entries/${id}`, {
       method: 'PUT',

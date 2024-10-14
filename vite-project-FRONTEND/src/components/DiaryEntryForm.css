@@ -12,7 +12,7 @@
     background-size: auto 100%; /* Natural width, full height */
     background-repeat: no-repeat;
     background-position: center;
-    width: 60%; /* Adjust this based on the actual image size */
+    width: 60%; 
     height: 90vh; /* Full screen height */
     padding: 50px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
@@ -37,7 +37,7 @@
     right: 10px;
     background-color: transparent;
     border: none;
-    color: black; /* Ink-like color */
+    color: black; 
     font-size: 18px;
     outline: none;
   }
@@ -45,7 +45,7 @@
   /* Additional styles for date input to affect the icon */
 input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     background-color: black; /* Change icon background */
-    color: black; /* Change icon color (may not work in all browsers) */
+    color: black; /* Change icon color */
 }
   
   .title-input {
@@ -53,16 +53,16 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     display: block;
     background-color: transparent;
     border: none;
-    color: darkred; /* Ink-like color */
+    color: darkred; 
     font-size: 35px;
     text-align: center;
     outline: none;
-    margin-top: 5px; /* Added space between date and title */
-    width: 80%; /* Adjust as needed */
+    margin-top: 5px;
+    width: 80%; 
   }
   
   .mood-select {
-    margin: 20px 40px auto; /* Added space between title and mood */
+    margin: 20px 40px auto; 
     background-color: transparent;
     border: none;
     color: darkred; /* Ink-like color */
@@ -87,7 +87,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     margin: 20px 30px auto;
     background-color: transparent;
     border: none;
-    color: darkred; /* Ink-like color */
+    color: darkred; 
     font-size: 18px;
     width: 80%; /* Match other input widths */
     outline: none;
@@ -109,12 +109,12 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
   
   body, input, select, textarea {
     font-family: 'Dancing Script', cursive;
-    color: darkred; /* Keep the ink-like color */
+    color: darkred; 
   }
   
   .title-input, .mood-select, .content-textarea, .tags-input {
     font-family: 'Dancing Script', cursive;
-    font-size: 22px; /* Adjust font size to suit the font */
+    font-size: 22px;
   }
   
   .date-input {

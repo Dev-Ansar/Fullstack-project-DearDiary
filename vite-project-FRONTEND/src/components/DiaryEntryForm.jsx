@@ -19,7 +19,7 @@ const DiaryEntryForm = ({ onNewEntry, entry }) => {
     if (entry) {
       // If editing, populate the fields with the entry data
       setTitle(entry.title);
-      setDate(new Date(entry.date).toISOString().slice(0, 16)); // Format for datetime-local
+      setDate(new Date(entry.date).toISOString().slice(0, 16)); 
       setMood(entry.mood);
       setContent(entry.content);
       setTags(entry.tags.join(', ')); // Convert array to comma-separated string

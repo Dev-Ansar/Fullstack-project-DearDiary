@@ -2,7 +2,7 @@
 // src/components/DiaryEntryCard.jsx
 import React from 'react';
 import { deleteEntry } from '../services/api';
-import './DiaryEntryCard.css'; // Optional: Create this file for styling
+import './DiaryEntryCard.css'; 
 
 const DiaryEntryCard = ({ entry, onEdit, onDelete }) => {
   const handleDelete = async () => {
