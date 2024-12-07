@@ -1,6 +1,6 @@
-# Unit 5 - Final Project
+# Full Stack Project
 
-This is the Unit 5 final project, where I built a Diary Entry Application that allows users to create, read, update, and delete diary entries. The application integrates a beautiful UI, handles user inputs efficiently, and utilizes a robust back-end service for handling data storage and operations. This project demonstrates the essential components of a full-stack application, including front-end UI/UX design, back-end server implementation, and API integration. It supports essential CRUD operations and provides a polished and user-friendly interface for interacting with diary entries.
+In this project I built a Diary Entry Application that allows users to create, read, update, and delete diary entries. The application integrates a beautiful UI, handles user inputs efficiently, and utilizes a robust back-end service for handling data storage and operations. This project demonstrates the essential components of a full-stack application, including front-end UI/UX design, back-end server implementation, and API integration. It supports essential CRUD operations and provides a polished and user-friendly interface for interacting with diary entries.
 
 ## Tech Stack
 
